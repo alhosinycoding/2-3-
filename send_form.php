@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // البريد الإلكتروني للمالك
-    $to = "owner@example.com";  // ضع هنا عنوان بريدك الإلكتروني
+    $to = "yehiahosayny@gmail.com";  // ضع هنا عنوان بريدك الإلكتروني
     $subject = "رسالة تواصل جديدة من العميل: $name";
     $body = "
     الاسم: $name
